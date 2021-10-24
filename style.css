@@ -1,0 +1,49 @@
+body {
+    background-image: url('https://images.wallpaperscraft.com/image/single/train_mountains_art_130351_1920x1080.jpg');
+}
+
+.grid {
+    
+     height: 560px;
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(146, 199, 181);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+    color: #85796b;
+    border-radius: 22px;
+    opacity: 0.8; 
+    margin-top: -80px;
+   
+}
+
+.grid div {
+    cursor: grab;
+    cursor: grabbing;
+    height: 70px;
+    width: 70px;
+    
+}
+
+h3 {
+    font-family: 'Rampart One', cursive;
+    font-size: 35px;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
+#btnclick {
+    font-size: 30px;
+    padding: 7px;
+    float: right;
+    border-radius: 22px;
+    margin-top: -300px;
+    margin-left: -100px;
+    cursor: -webkit-grabbing ;
+    background-color: rgb(160, 175, 218);
+
+}
+
